@@ -11,6 +11,8 @@
            fetch="git://git.linaro.org/" />
   <remote  name="github"
            fetch="git://github.com/" />
+  <remote  name="project-revolution"
+           fetch="git://github.com/project-revolution" />
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -175,10 +177,6 @@
   <project path="external/webrtc" name="platform/external/webrtc" revision="linaro_android_4.3" groups="common" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="linaro_android_4.3" groups="common" />
   <project path="external/srec" name="platform/external/srec" revision="linaro_android_4.3" groups="common" />
-
-  <!-- TI proprietary-open -->
-  <project path="device/ti/proprietary-open" name="device/ti/proprietary-open" revision="ics" groups="common" />
-  <project path="device/ti/uim" name="device/ti/uim" revision="android" groups="common" />
 
   <!-- AOSP -->
   <project path="cts" name="platform/cts" groups="common" remote="aosp-upstream" />
