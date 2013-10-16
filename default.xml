@@ -4,15 +4,25 @@
   <remote  name="aosp"
            fetch="git://android.git.linaro.org/"
            review="review.android.git.linaro.org" />
+		   
   <remote  name="aosp-upstream"
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+		   
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
+		   
   <remote  name="github"
            fetch="git://github.com/" />
+		   
   <remote  name="project-revolution"
            fetch="git://github.com/project-revolution" />
+		   
+  <remote name="cm"
+           fetch="git://github.com/"
+           review="review.cyanogenmod.org"
+           sync-j="4" />
+		   
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
