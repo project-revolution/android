@@ -45,7 +45,6 @@
   <project path="external/busybox" name="platform/external/busybox" revision="linaro-1.21" groups="common" />
   <project path="external/lrzsz" name="platform/external/lrzsz" revision="linaro-master" groups="common" />
   <project path="external/speex" name="platform/external/speex" revision="linaro_mmwg" groups="common" />
-  <project path="device/samsung/proprietary-open" name="device/samsung/proprietary-open" revision="linaro-jb" groups="common" />
   <project path="uefi" name="arm/uefi/uefi" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk,vexpress-iks" />
   <project path="boot-wrapper" name="arm/models/boot-wrapper" revision="master" remote="linaro-other" groups="vexpress,vexpress-lsk" />
   <project path="external/gator" name="arm/ds5/gator" revision="android" remote="linaro-other" groups="pandaboard" />
@@ -81,10 +80,7 @@
   
   <!-- Linaro modifications:  Add private lib for wifi to work with generic wext driver -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="linaro_android_4.3" groups="common" />
-  
-  <!-- Linaro modifications: Integrate Linaro build system extras -->
-  <project path="device/ti/panda" name="device/ti/panda" revision="linaro_android_4.3" groups="common" />
-  
+   
   <!-- Linaro modifications: Added property to turn off hardware GFX -->
   <project path="frameworks/base" name="platform/frameworks/base" revision="linaro_android_4.3" groups="common" />
   
@@ -113,9 +109,7 @@
   
   <!-- Linaro modifications: Set CPU specific compiler flags, init.partitions.rc -->
   <project path="device/generic/goldfish" name="device/generic/goldfish" revision="linaro_android_4.3" groups="common" />
-  <!-- FIXME The 4.0.4 branch has further changes that may need porting -->
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="linaro_android_4.3" groups="common" />
-  
+   
   <!-- Linaro modifications: New init.rc, bug fixes -->
   <project path="system/core" name="platform/system/core" revision="linaro_android_4.3" groups="common" />
   
@@ -359,10 +353,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="common" remote="aosp-upstream" />
   
   <!-- Linaro modifications: support building with gcc 4.8 -->
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="linaro_android_4.3" groups="common" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="common" remote="aosp-upstream" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" groups="common" remote="aosp-upstream" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" groups="common" remote="aosp-upstream" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" groups="nexus4" remote="aosp-upstream" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="nexus4" remote="aosp-upstream" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="nexus4" remote="aosp-upstream" />
