@@ -15,6 +15,9 @@
   <remote  name="github"
            fetch="git://github.com/" />
 		   
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets" />
+		   
   <remote  name="project-revolution"
            fetch="git://github.com/project-revolution" />
 		   
@@ -490,8 +493,8 @@
 
   <!-- Sony Xperia MSM8x60 & MSM8x74 device files -->
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="project-revolution" revision="cm-10.2" /> 
-  <project name="android_device_sony_togari" path="device/sony/togari" remote="project-revolution"   revision="cm-10.2" groups="device,togari" />
-  <project name="android_device_sony_honami" path="device/sony/honami" remote="project-revolution"   revision="cm-10.2" groups="device,honami" />
+  <project name="android_device_sony_togari" path="device/sony/togari" remote="project-revolution"   revision="linaro_android_4.3" groups="device,togari" />
+  <project name="android_device_sony_honami" path="device/sony/honami" remote="project-revolution"   revision="linaro_android_4.3" groups="device,honami" />
   <project name="android_device_sony_rhine-common" path="device/sony/rhine-common" remote="cm"   revision="cm-10.2" />
   <project path="hardware/qcom/audio-bfam" name="CyanogenMod/android_hardware_qcom_audio-bfam" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media-v4l2" name="CyanogenMod/android_hardware_qcom_media-v4l2" remote="cm" revision="cm-10.2" />
